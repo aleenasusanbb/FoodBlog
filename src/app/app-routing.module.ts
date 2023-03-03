@@ -10,6 +10,10 @@ import { SeafoodComponent } from './pages/seafood/seafood.component';
 import { SignupComponent } from './pages/signup/signup.component';
 import { SnacksComponent } from './pages/snacks/snacks.component';
 import { SingleComponent } from './single/single.component';
+import { SingledComponent } from './singled/singled.component';
+import { SinglenComponent } from './singlen/singlen.component';
+import { SinglesComponent } from './singles/singles.component';
+import { SinglesdComponent } from './singlesd/singlesd.component';
 import { VegComponent } from './veg/veg.component';
 
 const routes: Routes = [
@@ -51,6 +55,18 @@ const routes: Routes = [
   },
   {
     path:'single',component:SingleComponent
+  },
+  {
+    path:'singlen',component:SinglenComponent
+  },
+  {
+    path:'singles',component:SinglesComponent
+  },
+  {
+    path:'singled',component:SingledComponent
+  },
+  {
+    path:"singlesd",component:SinglesdComponent
   }
 ];
 

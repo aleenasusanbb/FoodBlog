@@ -17,6 +17,10 @@ import { NonVegComponent } from './pages/non-veg/non-veg.component';
 import { SnacksComponent } from './pages/snacks/snacks.component';
 import { DessertsComponent } from './pages/desserts/desserts.component';
 import { SeafoodComponent } from './pages/seafood/seafood.component';
+import { SinglenComponent } from './singlen/singlen.component';
+import { SinglesComponent } from './singles/singles.component';
+import { SingledComponent } from './singled/singled.component';
+import { SinglesdComponent } from './singlesd/singlesd.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +38,11 @@ import { SeafoodComponent } from './pages/seafood/seafood.component';
     NonVegComponent,
     SnacksComponent,
     DessertsComponent,
-    SeafoodComponent
+    SeafoodComponent,
+    SinglenComponent,
+    SinglesComponent,
+    SingledComponent,
+    SinglesdComponent
   ],
   imports: [
     BrowserModule,

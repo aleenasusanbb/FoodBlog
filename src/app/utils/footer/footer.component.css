@@ -1,294 +1,202 @@
-/*Start Footer*/
-footer {
-    background-color: cadetblue;
-    padding: 60px 20px;
-    height: 500px;
-}
-footer .text {
-    max-width: 500px;
-    margin: auto;
-   color: #D8D8D8;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
-}
-footer .text h2 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 19px;
-    letter-spacing: 1.9px;
-    margin-bottom: 25px;
-    color: #D8D8D8;
-}
-footer .text .fa-asterisk {
-    font-size: 12px;
-   color: #D8D8D8;
-}
-footer .text p {
-    line-height: 27px;
-    text-decoration-color: #D8D8D8;
-}
-footer .contact-container {
-    padding: 40px 0;
-    max-width: 1000px;
-    margin: auto;
-}
-footer .contact-container > div {
-    flex: 1;
-}
-footer .contact-container h3 {
-    font-size: 19px;
-    letter-spacing: 1.9px;
-}
-footer .social-media .links a {
-    margin: 0 10px;
-    font-size: 25px;
-}
-footer .newsletter input {
-    padding: 10px;
-    width: 270px;
-    background-color: #eee;
-    border: none;
-    margin-left: -15px;
-}
-footer .newsletter i {
-    margin-left: -40px;
-    vertical-align: middle;
-    font-size: 21px;
-}
-.copyright {
-    text-align: center;
-    padding: 15px 40px 30px;
-    background-color: #262526;
-}
-.copyright .svg-up {
-    top: 0;
-    left: 50%;
-    margin-left: -96px;
-    margin-top: -50px;
-}
-.copyright .arrow-up {
-    width: 40px;
-    height: 30px;
-    top: -45px;
-    color: #fff;
-    line-height: 1.9
-}
-.copyright ul {
-    justify-content: center;
-}
-.copyright li {
-    color: #919191;
-    font-size: 14px;
-}
-.copyright li:not(:last-of-type):after {
-    content: '•';
-    margin: 10px;
-}
-.copyright .CTA {
-    margin-top: 25px;
-}
-.copyright .CTA li a {
-    color: #919191;
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/*End Footer*/
-
-/*End Home Page*/
-
-/*Start Contact Page*/
-.contact-header {
-    background-image: url("https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988526/contact-food.jpg");
-    height: 40vh;
-}
-.contact {
-    padding: 78px 40px;
-}
-.contact > div {
-    flex: 50%;
-}
-.contact .text p {
-    margin-bottom: 30px;
-}
-.contact .text i {
-    width: 50px;
-    height: 50px;
-    background-color: #000;
-    border-radius: 50%;
-    line-height: 48px;
-    font-size: 24px;
-}
-.contact .text h2 {
-    font-family: source_sans_problack, sans-serif;
-    font-size: 24px;
-    color: #262626;
-    letter-spacing: 2.4px;
-    margin-bottom: 20px;
-}
-.contact .form {
-    margin-left: 48px;
-}
-.contact .form form label {
-    margin-bottom: 5px;
-    color: #515151;
-}
-.contact .form form input, .contact .form form textarea {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 24px;
-    border-radius: 5px;
-    border: 2px solid #D8D8D8;
-    outline: none;
-}
-.contact .form form input:focus, .contact .form form textarea:focus {
-    border-color: #a96700;
-    box-shadow: 0 1px 1px #737373;
-}
-.contact .form form textarea {
-    height: 212px;
-    resize: none;
-}
-.contact .form form button {
-    background-color: #262526;
-    padding: 12px 30px;
-    font-size: 12px;
-}
-/*End Contact Page*/
-
-/*Start Home Page Responsive*/
-
-@media (max-width: 1200px) {
-    .menu, .about-us, .reservation {
-        padding: 60px 40px;
-    }
-    .about-us .text, .reservation .text {
-        padding: 0 32px 0 0;
-    }
-    .about-us .image-container, .reservation .image-container {
-        align-items: center;
-    }
-    .menu .text {
-        padding: 0 0 0 32px;
-    }
+section {
+  width: 100%;
+  display: inline-block;
+  background: tan;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
-@media (max-width: 992px) {
-    body {
-        padding: 0;
-    }
-    .dots {
-        display: none;
-    }
-    header {
-        height: calc(100vh - 10px);
-    }
-    header nav .logo {
-        padding-left: 0;
-    }
-    .about-us {
-        display: block;
-        padding-top: 50px;
-    }
-    .about-us .text , .reservation .text {
-        padding: 0 0 40px;
-    }
-    .about-us .image-container .image1, .reservation .image-container .image1 {
-        margin-left: 0;
-    }
-    .menu {
-        display: block;
-        padding: 60px 20px 60px 40px;
-    }
-    .menu .text {
-        padding: 20px 20px 0 0;
-    }
-    .reservation {
-        display: block;
-        padding: 30px 20px 60px;
-    }
-    .contact {
-        display: block;
-        padding: 78px 20px;
-    }
-    .contact .form {
-        margin-left: 0;
-        margin-top: 40px;
-    }
+.footer-distributed{
+	background: powderblue;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
 }
 
-@media (max-width: 768px) {
-    header nav {
-        display: block;
-        text-align: center;
-        left: 0;
-        top: 0;
-        width: 100%;
-        padding-top: 25px;
-    }
-    header nav .toggle {
-        display: block;
-    }
-    header .navigation-bar {
-        position: fixed;
-        top: 0;
-        left: -174px;
-        height: 100%;
-        background-color: #262526;
-        overflow: hidden;
-        z-index: 20;
-        padding: 40px;
-    }
-    header .navigation-bar ul {
-        display: block;
-        padding-top: 40px;
-    }
-    header .navigation-bar ul li {
-        text-align: left;
-        padding: 14px 0;
-    }
-    footer .contact-container {
-        display: block;
-    }
-    footer .social-media {
-        margin-bottom: 40px;
-    }
-    .copyright ul {
-        display: block;
-        margin-top: -20px;
-    }
-    .copyright li {
-        margin-bottom: 5px;
-    }
-    .copyright li:not(:last-of-type):after {
-        content: '';
-    }
-
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
 }
 
-@media (max-width: 576px) {
-    h3, h1 {
-        font-size: 40px;
-        text-decoration-color: #D8D8D8;
-    }
-    h2 {
-        font-size:90px
-    }
-    header {
-        padding: 0;
-    }
-    header nav .logo {
-        padding-left: 0;
-    }
-    header nav .toggle.active {
-        left: 36%;
-    }
-    header .navigation-bar.show {
-        padding: 20px;
-        width: 48%;
-    }
-    .about-us, .reservation {
-        padding: 60px 20px;
-    }
-    .menu {
-        padding: 60px 0 60px 20px;
-    }
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
 }
-/*End Home Page Responsive*/
+
+/* The company logo */
+
+.footer-distributed h3{
+	color: black;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  black;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: black;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color:black;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  black;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: black;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  black;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  black;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  gray;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+.logo{
+  height: 10vh;
+  width: 10vh;
+}

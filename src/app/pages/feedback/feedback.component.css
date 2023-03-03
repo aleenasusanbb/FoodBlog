@@ -4,9 +4,10 @@ body{
 	font-family: 'Hind Siliguri', sans-serif;
 }
 .card{
-	width: 300px;
+	width: 700px;
+	height: 500px;
 	border: none;
-	border-radius: 15px;
+	border-radius: 25px;
 }
 .adiv{
 	background: #0063FF;
@@ -14,12 +15,12 @@ body{
 	border-bottom-right-radius: 0;
 	border-bottom-left-radius: 0;
 	font-size: 12px;
-	height: 46px;
+	height: 56px;
 }
 img{
 	margin-right: 10px;
 	width: 35px;
-	height: 35px;
+	height: 55px;
 	cursor: pointer;
 }
 .fas{

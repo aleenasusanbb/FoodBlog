@@ -5,7 +5,7 @@ body{
   background: #fff;
   margin-top: 10%;
   margin-bottom: 5%;
-  width: 70%;
+  width: 90%;
 }
 .contact-form .form-control{
   border-radius:1rem;
@@ -15,7 +15,7 @@ body{
 }
 .contact-image img{
   border-radius: 6rem;
-  width: 11%;
+  width: 20%;
   margin-top: -3%;
   transform: rotate(29deg);
 }
