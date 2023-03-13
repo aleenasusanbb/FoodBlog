@@ -21,6 +21,10 @@ import { SinglenComponent } from './singlen/singlen.component';
 import { SinglesComponent } from './singles/singles.component';
 import { SingledComponent } from './singled/singled.component';
 import { SinglesdComponent } from './singlesd/singlesd.component';
+import { IngredientsComponent } from './ingredients/ingredients.component';
+import { OrdersingleComponent } from './ordersingle/ordersingle.component';
+import { SinglepayComponent } from './singlepay/singlepay.component';
+import { SafePipe } from './safe.pipe';
 
 @NgModule({
   declarations: [
@@ -42,7 +46,11 @@ import { SinglesdComponent } from './singlesd/singlesd.component';
     SinglenComponent,
     SinglesComponent,
     SingledComponent,
-    SinglesdComponent
+    SinglesdComponent,
+    IngredientsComponent,
+    OrdersingleComponent,
+    SinglepayComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,

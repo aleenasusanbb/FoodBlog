@@ -3,6 +3,7 @@ export const vegdb = [
         "name": "Mushroom Ghee Roast",
         "img": "https://c.ndtvimg.com/2022-05/4dtnidd8_mushroom_625x300_11_May_22.jpg",
         "recepie":"Mushroom Ghee Roast Recipe is a finger licking good recipe made of mushrooms made the South Indian way. Cooked in ghee made similar to that of a Mangalorean ghee roast. The mushrooms are marinated with yogurt and spice powders and then pan roasted with ghee and curry leaves that lend a lovely flavour to the dish. The freshly ground spice masala is what makes it that lip smacking dish that it is.To begin making the Mushroom Ghee Roast Recipe, we will first marinate the mushrooms. In a mixing bowl, combine the mushrooms, along with the yogurt, turmeric powder and lemon juice. Mix well and set aside for a minimum of 30 minutes. Heat a skillet on medium heat, to this add the, dry red chillies, peppercorns, cloves, methi seeds, coriander seeds and cumin seeds. Dry roast for about 4-6 minutes, or until the aroma of the spices wafts in the air.Turn off the flame and allow the spices to cool down. Into the mixer jar, add the roasted spices, garlic cloves, and tamarind paste, grind into a smooth paste, using some water. Transfer the ghee roast masala into a bowl and set aside.",
+        "link":"https://www.youtube.com/embed/Zez0pFDgzpU"
        
         
     },
@@ -10,14 +11,14 @@ export const vegdb = [
         "name": "Samosa",
         "img":"https://c.ndtvimg.com/2023-02/bdd5f0io_patti-samosa_625x300_13_February_23.jpg",
         "recepie" :"Soak and cook one cup of thin rice poha. Do not add any extra ingredients at this stage. You may flavour it with a bit of turmeric.In a large bowl, mix onions and the poha.Finely chop ginger, coriander leaves and green chillies separately.Next, add the red Chilli powder, garam masala powder, chaat masala and salt to the bowl. Start mixing them together.Added the chopped ingredients to the bowl as well. You may add a pinch of sugar to balance out the spice.Mix all the items by hand or with a big spoon.Cut each samosa Patti in half and start folding it to make a hollow cone shape.To seal the edges, use a flour-water mixture as glue. To make it, combine the refined flour with 1-2 cups of water till it turns into a binding paste.Fill the Patti with the poha filling. Remember to seal the final edge firmly with the paste, but don't press too hard.Repeat the process for each Patti and keep them ready.Begin deep frying the samosas carefully till they turn golden brown.Serve with mint chutney or dry garlic chutney.",
-        
+        "link":"Zez0pFDgzpU"
     },
 
     {
         "name": "Kerala style parippu",
         "img":"https://c.ndtvimg.com/2022-12/0mrvj8c_masoor-dal_625x300_14_December_22.jpg",
         "recepie":"The South Indian cuisine has many preparations made with various types of lentils, legumes, beans or peas. From snacks, starters, salads to mains and even desserts or sweets, ‘paruppu/parippu’ or lentils are used in the preparation of many dishes. Just like this Parippu Curry, which is simply a Moong Lentil Curry. This is one of the popular ones that feature in the all-vegetarian festive feast called ‘Sadya,’ during Onam celebrations in Kerala. You must try this lovely, soulful and comforting dal-based dish as well.Rinse ⅓ cup (70 grams) moong dal in water a couple of times. Then, add rinsed moong dal in a 2 liter stovetop pressure cooker. Also, add ⅛ teaspoon turmeric powder (2 pinches) and 1 cup water.You can even cook the moong lentils in a 6 quarts Instant Pot adding 1 cup water for 10 to 12 minutes on high pressure.Alternatively, opt to cook them in a stovetop in a pot/pan adding water as needed. For quick cooking of the lentils, soak them in water for about 30 minutes to 1 hour.",
-     
+        "link":"Zez0pFDgzpU"
     },
     {
         "name": "Beans Poriyal",

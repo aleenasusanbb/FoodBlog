@@ -4,6 +4,7 @@ import { nonvegdb } from 'src/assets/data/nveg';
 import { snackdb } from 'src/assets/data/snack';
 import { dessertdb } from 'src/assets/data/dessertdb';
 import { seafooddb } from 'src/assets/data/seafood';
+import { ingredientsdb } from 'src/assets/data/utils';
 
 
 
@@ -27,6 +28,9 @@ export class ServiceService {
   }
   getData4(){
     return seafooddb
+  }
+  getData5(){
+    return ingredientsdb
   }
 
 

@@ -1,5 +1,7 @@
 import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { IngredientsComponent } from './ingredients/ingredients.component';
+import { OrdersingleComponent } from './ordersingle/ordersingle.component';
 import { AboutusComponent } from './pages/aboutus/aboutus.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { DessertsComponent } from './pages/desserts/desserts.component';
@@ -45,6 +47,9 @@ const routes: Routes = [
     path:'seafood',component:SeafoodComponent
   },
   {
+    path:'ingredients',component:IngredientsComponent
+  },
+  {
     path:'contact', component:ContactComponent
   },
   {
@@ -66,7 +71,10 @@ const routes: Routes = [
     path:'singled',component:SingledComponent
   },
   {
-    path:"singlesd",component:SinglesdComponent
+    path:'singlesd',component:SinglesdComponent
+  },
+  {
+    path:'ordersingle',component:OrdersingleComponent
   }
 ];
 
