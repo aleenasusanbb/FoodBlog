@@ -8,11 +8,14 @@ import { ServiceService } from '../service.service';
 })
 export class SinglenComponent {
   nonvegdetails:any
+  link:any
+  vdoUrl:any
   constructor(private D:ServiceService){}
   ngOnInit(){
     let idd:any=localStorage.getItem('id')
     let arrd=this.D.getData1();
     this.nonvegdetails=arrd.filter(e=>e.name==idd)
+    this.vdoUrl="https://www.youtube.com/embed/"
   }
 
 }
