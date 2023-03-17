@@ -5,6 +5,7 @@ import { snackdb } from 'src/assets/data/snack';
 import { dessertdb } from 'src/assets/data/dessertdb';
 import { seafooddb } from 'src/assets/data/seafood';
 import { ingredientsdb } from 'src/assets/data/utils';
+import { Firestore,collectionData,collection,addDoc } from '@angular/fire/firestore';
 
 
 
@@ -32,8 +33,8 @@ export class ServiceService {
   getData5(){
     return ingredientsdb
   }
-
-
-
-  
+insertData(docRef:any,data:any)
+{
+  addDoc(docRef,data).then(()=>{alert("successfull")}).catch((err)=>alert(err))
+}
 }

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "foodblog-6b26f": {
+      "hosting": {
+        "FoodBlog": [
+          "foodblog-6b26f"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "foodblog-6b26f"
+  }
+}
