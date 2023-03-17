@@ -86,8 +86,8 @@
                 <label
                   data-error="wrong"
                   data-success="right"
-                  for="defaultForm-name"
-                  >Your Name</label
+                  for="defaultForm-name" [(ngModel)]="name"
+                  > Your Name</label
                 >
               </div>
 
@@ -101,7 +101,7 @@
                 <label
                   data-error="wrong"
                   data-success="right"
-                  for="defaultForm-email"
+                  for="defaultForm-email" [(ngModel)]="email"
                   >Your email</label
                 >
               </div>
@@ -116,7 +116,7 @@
                 <label
                   data-error="wrong"
                   data-success="right"
-                  for="defaultForm-pass"
+                  for="defaultForm-pass"[(ngModel)]="password"
                   >Your password</label
                 >
               </div>
@@ -131,14 +131,14 @@
                 <label
                   data-error="wrong"
                   data-success="right"
-                  for="defaultForm-cpass"
+                  for="defaultForm-cpass"[(ngModel)]="cpassword"
                   >Confirm password</label
                 >
               </div>
             </div>
           </div>
           <div class="modal-footer d-flex justify-content-center">
-            <button class="btn btn-outline-info">Sign Up</button>
+            <button class="btn btn-outline-info" type="submit" (click)="submit()">Sign Up</button>
           </div>
         </div>
       </div>
